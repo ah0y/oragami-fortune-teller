@@ -1,0 +1,17 @@
+{
+  "name": "scotch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "~1.0.1",
+    "ejs": "^2.5.8",
+    "express": "~4.0.0",
+    "mongoose": "^5.0.14"
+  }
+}

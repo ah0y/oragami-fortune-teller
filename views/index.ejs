@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>
+        Choose your fate..
+    </title>
+</head>
+
+<body>
+    <!-- <!-- top: 0; bottom:0; width: 100%; -->
+    <img src='/folding.gif' style='display: none; position: absolute; ' <div>
+    <img src='/flap.gif' style='display: none; position: absolute; ' <div>
+
+    <div class="row">
+        <div class="column">
+            <div>
+                <button class='btn btn-warning pushme' data="<%= name1 %>">
+                    <%= name1[0] %>
+                </button>
+            </div>
+            <div>
+                <button class='btn btn-warning pushme' data="<%= name2 %>">
+                    <%= name2[0] %>
+                </button>
+            </div>
+            <div>
+                <button class='btn btn-warning pushme' data="<%= name3 %>">
+                    <%= name3[0] %>
+                </button>
+            </div>
+            <div>
+                <button class='btn btn-warning pushme' data="<%= name4 %>">
+                    <%= name4[0] %>
+                </button>
+            </div>
+        </div>
+        <div class="column nums">
+            <div>
+                <button class='btn btn-warning flap odd' style='display:none' data="<%= name1 %>">
+                    1
+                </button>
+            </div>
+            <div>
+                <button class='btn btn-warning flap even' style='display:none' data="<%= name1 %>">
+                    2
+                </button>
+            </div>
+            <div>
+                <button class='btn btn-warning flap odd' style='display:none' data="<%= name2 %>">
+                    3
+                </button>
+            </div>
+            <div>
+                <button class='btn btn-warning flap even' style='display:none' data="<%= name2 %>">
+                    4
+                </button>
+            </div>
+            <div>
+                <button class='btn btn-warning flap odd' style='display:none' data="<%= name3 %>">
+                    5
+                </button>
+            </div>
+            <div>
+                <button class='btn btn-warning flap even' style='display:none' data="<%= name3 %>">
+                    6
+                </button>
+            </div>
+            <div>
+                <button class='btn btn-warning flap odd' style='display:none' data="<%= name4 %>">
+                    7
+                </button>
+            </div>
+            <div>
+                <button class='btn btn-warning flap even' style='display:none' data="<%= name4 %>">
+                    8
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">  </script>
+    <script src="/javascript/script.js"></script>
+    <link href="/css/style.css" rel="stylesheet" type="text/css">
+
+    </div>
+
+</body>
+
+</html>
